@@ -1,0 +1,54 @@
+<ion-scroll ng-controller="place" zooming="true" direction="y" style=" height: 100%;" class="fourth has-header content maincontent"> 
+ <div class="bar item-input-inset citysearch" style="margin-top: 44px;">
+  <div class="item-input-wrapper">
+    <input type="text" placeholder="请输入搜索内容" ng-model="myplace"/>
+    <div class="button icon ion-search" id="searchA" ng-click="searchplace(myplace)"></div>
+  </div>
+ </div>
+ <!--热门城市-->
+  <div class="list">
+    <div class="fifthhr">热门城市</div>
+      <a class="item  item-icon-right" href="#">
+        <p>北京</p>
+      </a>
+      <a class="item  item-icon-right" href="#">
+        <p>上海</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>西安</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>三亚</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>厦门</p>
+      </a>
+      <div class="fifthhr">A</div>
+      <a class="item item-icon-right" href="#">
+        <p>阿尔卑斯</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>阿尔卑斯</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>阿尔卑斯</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>阿尔卑斯</p>
+      </a>
+      <div class="fifthhr">B</div>
+      <a class="item item-icon-right" href="#">
+        <p>北京</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>北京</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>北京</p>
+      </a>
+      <a class="item item-icon-right" href="#">
+        <p>北京</p>
+      </a>
+  </div>
+  <p class="footbar"></p>
+</ion-scroll>

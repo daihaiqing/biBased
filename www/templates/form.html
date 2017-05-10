@@ -1,0 +1,14 @@
+<ion-scroll ng-controller="third" class="has-header content has-footer thirdmain fourth otherpage" zooming="true" direction="y" style=" height: 100%;padding-top:0px;">
+<form accept-charset="utf-8" class="addform" id="addform">
+	<label>时间：<input type="text" name="" value="">例：2016.01.7 上午 / 上午</label>
+	<label>地点：<input type="text" name="" value="">例：圆明园</label>
+	<label>景区或地点简介：<textarea name=""></textarea></label>
+	<label>景点或活动名称：<input type="text" name="" value=""></label>
+	<label>景点或活动内容：<textarea name=""></textarea></label>
+	<label>景点或活动图片：<input type="file" name="" value="" accept="image/*"></label>
+</form>
+<p class="addcontent" ng-click="addcontent()">继续添加内容</p>
+<p class="submitcontent" ng-click="submitcontent()">提交行程</p>
+
+<p class="footbar"></p>
+</ion-scroll>

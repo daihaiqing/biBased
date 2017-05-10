@@ -1,0 +1,699 @@
+/* Empty. Add your own CSS if you like */
+html,body{
+	overflow: hidden !important;
+}
+.head{
+	background-color:rgb(69,152,220);
+}
+.header{
+	height:3.5em;
+	line-height: 3.5em;
+	background-color:rgb(69,152,220);
+}
+.ohead{
+	width:100% !important;
+	text-align:center;
+	font-size:0.6rem;
+	color:rgb(255,255,255);
+	font-weight:800;
+	padding:0 !important;
+}
+.oheadright{
+	font-size:1rem;
+	color:rgb(255,255,255);
+	font-weight:600;
+	line-height: 44px;
+	margin-top: -10px;
+}
+.headerinner{
+	width:100%;
+	text-align:center;
+	color:white !important;
+}
+.headerinner>a,.headerinner>label{
+	display:inline-black;
+}
+.headerinner>a{
+	width:2rem;
+	color:white !important;
+}
+.headerinner>label{
+	width:5.5rem;
+	text-align:center;
+	font-weight:800;
+}
+#search{
+	background-color: rgba(100,100,100,0);
+}
+.search a{
+	color: white !important;
+	display: inline-block;
+	width: 4em;
+}
+#search input{
+	background-color: rgba(100,100,100,0.3);
+	border:1px solid rgba(100,100,100,0.5);
+	border-radius: 1em;
+	color: white;
+	width: 100%;
+	padding-right: 0 !important;
+}
+.search span{
+	font-size: 1.6em;
+	background-color: rgba(1,1,1,0);
+	margin-left:0 !important;
+}
+.searchbutton{
+	position: relative;
+	right:2em !important;
+	left:-1.8em;
+	font-size: 1.8em !important;
+	background-color: rgba(1,1,1,0);
+}
+.cartQ{
+	position:relative;
+	top:0.5em !important;
+}
+.col img{
+	width: 100%;
+}
+.box{
+    width: 100%;
+    height: 15em;
+}
+.box>img{
+	width: 100%;
+	height: 15em;
+}
+.row1{
+	border-bottom:1px solid grey;
+	border-top:1px solid grey;
+	margin: 1em 0 1em 0 !important;
+}
+.row2{
+	border-bottom:1px solid grey;
+}
+.foot a{
+	font-size: 1.2em !important;
+}
+.fourth{
+	background-color: rgb(240,240,240) !important;
+}
+.fourthhr{
+	height: 1em !important;
+}
+.login{
+	width: 10rem;
+	background-color: white;
+	height: 3.2rem;
+}
+#sear{
+	font-size: 1.2em !important;
+	color:white !important;
+	text-align: center !important;
+	width: 80% !important;
+	margin-right: 13% !important;
+}
+.city{
+	padding-bottom: 3em !important;
+}
+#searchA{
+	color: black !important;
+	background-color: rgba(1,1,1,0) !important;
+	position:relative;
+	z-index:999;
+}
+.citysearch{
+	height: 4em !important;
+	line-height: 4em !important;
+}
+.fifthhr{
+	height: 2em !important;
+	line-height: 2em !important;
+	background-color: rgba(200,200,200,0.5) !important;
+}
+.price{
+	color: orange !important;
+}
+.scroll-view{
+	margin-top:0 !important;
+}
+.claer{
+	clear:both;
+}
+.footbar{
+	clear:both;
+	width:100%;
+	height:76px !important;
+}
+.list{
+	padding-bottom:44px;
+}
+.item>h2{
+	padding-top:10px !important;
+	font-weight:800;
+}
+.otherpage{
+	top:44px !important;
+}
+.bar-footer{
+	position: fixed;
+	bottom: 0;
+}
+.bar-header{
+	position: fixed;
+	top: 0;
+}
+/*home*/
+.headimg{
+	height:5.4rem;
+}
+.headimg img{
+	width:10rem;
+	height:5.4rem;
+	margin :0;
+	padding:0;
+}
+.firstmiddle{
+	height: 1.4rem;
+	width: 100%;
+	line-height: 1.4rem;
+	font-size: 0.4rem;
+	color:rgb(100,100,100);
+	margin:0 !important;
+}
+.firstmiddle span{
+	margin-right:0.2rem;
+}
+.chatbubble{
+	font-size:0.6rem !important;
+	margin-left:1.5rem;
+}
+.firstsuggest,.firstsuggest img{
+	height:3.5rem;
+	width:10rem;
+}
+.firstsuggestmore{
+	height: 1.2rem;
+	width: 100%;
+	line-height: 1.2rem;
+	font-size: 0.5rem;
+	color:rgb(80,80,80);
+	margin:0 !important;
+	padding-left:0.2rem;
+}
+.firstul{
+	width:9.2rem;
+	margin-left:0.3rem;
+}
+.firstul>li{
+	width:2.3rem;
+	padding:0 0.1rem 0 0.1rem !important;
+	float:left;
+	list-style:none;
+	font-size:0.4rem;
+	text-align:center;
+	color:rgb(80,80,80);
+	margin-bottom: 0.4rem;
+}
+.firstul>li>img{
+	width:100%;
+}
+/*second*/
+.secondintro{
+	width:10rem;
+	height:5.4rem;
+	position:relative;
+	margin-bottom:0.3rem;
+}
+.secondsuggimg{
+	width:10rem;
+	height:5.4rem;
+	position:relative;
+	top:-0.8rem !important;
+}
+.secondsuggimg>img{
+	width:10rem;
+	position:relative;
+	height:5.4rem;
+}
+.secondintro>p{
+	margin:0 !important;
+	width:100%;
+}
+.secondintro>p:nth-child(1){
+	height:0.8rem;
+	position:relative;
+	z-index:999;
+	padding-top:0.3rem;
+}
+.seSuggePla{
+	height:0.8rem;
+	line-height:0.8rem;
+	position:absolute;
+	z-index:999;
+	font-size:0.45rem;
+	padding-left:0.3rem;
+	color:white;
+	font-weight:800;
+	bottom:0.8rem;
+}
+.seSuggePlane{
+	height:0.8rem;
+	line-height:0.8rem;
+	position:absolute;
+	color:white;
+	font-size:0.45rem;
+	padding-left:0.3rem;
+	z-index:999;
+	bottom:0;
+}
+.seSuggePlane>span:nth-child(2){
+	float:right;
+	margin-right:1rem;
+}
+.secondintro>p:nth-child(1) span{
+	display:inline-block;
+	color:white;
+}
+.tripday{
+	height:0.6rem;
+	margin-left:0.2rem;
+	line-height:0.6rem;
+	width:1.0rem;
+	border-radius:0.1rem;
+	background-color:rgba(60,60,60,0.5);
+	text-align:center;
+}
+.addtrip{
+	position:absolute;
+	right:0.5rem;
+	height:0.8rem;
+	line-height:0.8rem;
+	width:2.8rem;
+	text-align:center;
+	background-color:rgba(255,215,0,0.7);
+	border-radius:0.4rem;
+}
+.expFir{
+	margin-top:-2.4rem;
+}
+
+/*third*/
+.thirdforum{
+	background-color: white;
+	border-bottom: 0.3rem solid rgb(230,230,230);
+}
+.thirdexpress{
+	width: 10rem;
+	height:4.7rem;
+}
+.thirdexpress>img{
+	width: 9.8rem;
+	height:4.7rem;
+	margin:0 0.1rem 0 0.1rem;
+}
+.formInHead{
+	width: 10rem;
+	height: 2.0rem;
+	position: relative;
+}
+.formInHead>div{
+	float: left;
+	height: 1.8rem;
+}
+.formInHead>div:nth-child(1){
+	width: 2rem;
+	height: 1.8rem;
+	margin-left: 0.2rem;
+}
+.formInHead>div:nth-child(1)>img{
+	width: 2rem;
+	height: 1.8rem;
+}
+.thirdPer{
+	width: 2rem;
+	color:#cc0000;
+	font-size: 0.4rem;
+	top:0.2rem;
+	right: 0;
+	position: absolute;
+	text-align: center;
+}
+.forumName{
+	width: 5.8rem;
+	padding-left:0.3rem;
+}
+.forumName>p{
+	height: 1rem;
+	line-height: 1rem;
+	padding:0 !important;
+	margin:0 !important;
+}
+.forumName>p:nth-child(1){
+	font-size: 0.6rem;
+	color:black !important;
+	font-weight: 500;
+	height: 1.0rem;
+	line-height: 1.2rem;
+}
+.forumName>p:nth-child(2){
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.4rem;
+	color:rgb(50,50,50) !important;
+	font-weight: 500;
+}
+.thirdforum>p{
+	width: 100%;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.5rem;
+	color:rgb(80,80,80) !important;
+	font-weight: 500;
+	padding-left:0.4rem;
+	margin:0 !important;
+}
+.thirdfoot{
+	/*width: 100%;*/
+	/*border-top: 0.2rem solid rgb(69,152,220);*/
+	position: fixed !important;
+	top: 0;
+	left:4rem;
+	text-align: center;
+}
+.thirdfoot>div{
+	width: 2rem;
+	height: 1.0rem;
+	margin:0 auto;
+	background-color: rgb(69,152,220);
+	border-radius: 0 0 1rem 1rem;
+}
+.thirdfoot>div>p{
+	margin-bottom: 0 !important;
+	color:white !important;
+}
+.thirdfoot>div>p:nth-child(1){
+	font-size: 0.8rem;
+	font-weight: 1000;
+}
+.thirdfoot>div>p:nth-child(2){
+	font-size: 0.3em;
+}
+/*fourth*/
+.fourthhead{
+	width: 10rem;
+	height: 2rem;
+	margin-top: 0.5rem;
+	padding-top:0.6rem;
+}
+.fourthhead>div{
+	float: left;
+}
+.fourthhead>div:nth-child(1){
+	width: 2rem;
+	height: 2rem;
+	background-image: url(../img/my.png);
+	background-size: 100% 100%;
+	margin-left: 0.5rem;
+	border-radius: 1rem;
+}
+.fourthhead>div:nth-child(2){
+	margin-left: 0.6rem;
+	width: 3.4rem;
+}
+.fourthhead>div:nth-child(2)>p{
+	margin:0!important;
+}
+.name{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	color:rgb(120,120,120);
+	font-size: 0.6rem;
+}
+.level{
+	height: 0.6rem;
+	line-height: 0.6rem;
+	color:orange;
+	font-size: 0.5rem;
+	width:1.2rem;
+	border-radius: 0.2rem;
+	text-align: center;
+	background-color: rgb(69,152,220);
+}
+.fourthhead>div:nth-child(3)>p{
+	font-size: 0.5rem;
+	color:rgb(69,152,220);
+	padding-top: 0.6rem;
+}
+/*placedetail景点详情*/
+.detailhead,.detailhead img{
+	width: 10rem;
+	height: 5rem
+}
+.detailhead p{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	position: relative;
+	padding:0;
+	margin: 0;
+	z-index: 999999;
+	text-align: right;
+	margin-top: 0.2rem;
+}
+.detailhead p a{
+	margin-right: 0.3rem;
+	font-size: 1rem;
+	color:white;
+}
+.detailhead img{
+	position: relative;
+	top: -1rem;
+	z-index: 0;
+}
+.border{
+	margin-left: 0.2rem;
+	margin-right:0.2rem;
+	color:rgb(100,100,100);
+}
+.placename{
+	position: relative;
+	margin-top:-1.0rem;
+	z-index: 99;
+	padding:0;
+	margin-bottom:0.2rem;
+	color:white;
+}
+.borderbottom{
+	border-bottom:1px rgba(111,111,111,0.4) solid;
+	margin-bottom:0;
+	height: 1.0rem;
+	line-height: 1.0rem;
+}
+.detailintr{
+	margin-bottom: 0;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	font-weight: 800;
+}
+.seven{
+	width: 9rem;
+	height: 4.0rem;
+	padding:0.2rem 0.5rem 0.1rem 0.5rem;
+	position: relative;
+	margin-bottom:0.2rem;
+}
+.seven img{
+	width: 9rem;
+	height: 4.0rem;
+	position: relative;
+	border-radius: 0.2rem;
+	z-index: 9;
+}
+.seven  .sevenp{
+	text-align: center;
+	position: absolute;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.6rem;
+	color:white;
+	top: 1.7rem;
+	z-index: 999;
+	text-align: center;
+	width: 9rem;
+	font-weight: 800;
+	font-size: "微软雅黑";
+}
+.sevenps{
+	text-align: center;
+	position: absolute;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.4rem;
+	color:white;
+	top: 2.3rem;
+	z-index: 999;
+	text-align: center;
+	width: 9rem;
+	font-weight: 800;
+	font-size: "微软雅黑";
+}
+/*tripdetail*/
+.trip{
+	background-color: white !important;
+}
+.triph{
+	width: 100%;
+	text-align: center;
+	font-weight: 800;
+	font-family: "微软雅黑";
+}
+.triph1{
+	padding-top: 44px;
+}
+.triph2>i{
+	border-bottom: 2px solid black
+}
+.tripinfo{
+	width: 9.6rem;
+	margin:0.4rem 0.2rem 0.4rem 0.2rem;
+}
+.placep{
+	float: left;
+}
+.placep1{
+	width: 1rem;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	text-align: center;
+	margin-bottom: 0;
+}
+.placep3{
+	color:white;
+	display: block;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.45rem;
+	width: 0.8rem;
+	background-color: #FF1493;
+	border-radius: 0.4rem;
+	margin-top: 0.2rem;
+}
+.placep2{
+	margin-bottom: 0;
+	height: 1.3rem;
+	width: 8.6rem;
+	line-height: 1.3rem;
+}
+.tripimg{
+	height: 5rem;
+	width: 9.6rem;
+}
+.placeinforin{
+	width: 9.6rem;
+	margin:0 0 0.4rem 0;
+	padding: 0.2rem;
+}
+.placemain{
+	background-color: rgba(230,230,230,0.6);
+	width: 9.6rem;
+	margin:0 0.2rem 0 0.2rem;
+	border-radius: 0.1rem;
+}
+/*form 表单*/
+.addform{
+	text-align: left;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+	color:rgb(100,100,100);
+}
+.addform label{
+	display: block;
+	padding: 0.2rem 0 0.2rem 0;
+}
+.addform input{
+	width: 9.4rem;
+}
+.addform textarea{
+	width: 9.4rem;
+	height: 3rem;
+}
+.addcontent{
+	margin: 0 auto;
+	width: 3rem;
+	height: 0.6rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	background-color: rgba(255,255,255,1);
+}
+.submitcontent{
+	margin:0 auto;
+	width: 6rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.1rem;
+	background-color: orange;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	text-align: center;
+	border-radius: 0.2rem;
+}
+/*shadow*/
+.shadow{
+	position: fixed;
+	top:0;
+	bottom:0;
+	height: 100%;
+	width: 100%;
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+	padding-top:4.5rem;
+	background-color: rgba(100,100,100,0.5);
+	z-index: 999;
+	font-size:0.6rem;
+}
+.shadow>div{
+	width:80%;
+	margin-left:10%;
+	padding-top:10%;
+	padding-right:5%;
+	padding-left:5%;
+	padding-bottom:1rem;
+	border-radius:0.2rem;
+	background-color:rgba(30,144,255,0.6);
+}
+.shadow input{
+	width:100%;
+	height:1rem;
+	border-radius:0.2rem;
+}
+.shadow label{
+  font-size:0.6rem;
+}
+.shadow select{
+	width:100%;
+	height:1rem;
+}
+.shadow p{
+	line-height:1.2rem;
+}
+.shadow span{
+	display:inline-block;
+	height:1rem;
+	line-height:1rem;
+	border-radius:0.2rem;
+	margin:0 0.2rem 0 0.2rem;
+	padding:0 0.2rem 0 0.2rem;
+	background-color:rgba(255,255,255,0.5);
+}
+.shadow button{
+	background-color:#66FF00;
+	width:3rem;
+	height:1rem;
+	border:0;
+	border-radius:0.2rem;
+	margin-left:1.7rem;
+	margin-top:1rem;
+	font-size:0.6rem;
+	font-weight:500;
+	color:white;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=A63e90def3d0f5488ab9032056429a0d"></script>
+    <!--加载鼠标绘制工具-->
+    <script type="text/javascript" src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+
+     <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/services.js"></script>
+    <script type="text/javascript" src="js/font.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+  <body ng-app="starter"  ng-controller="myapp" class="positionall">
+  <div>
+    <div class="bar bar-header header item-input-inset search" ng-if="first">
+        <a class="button button-clear ion-ios-location" ng-click="show_what()" ui-sref="place">{{thisplace}}</a>
+        <label class="item-input-wrapper" id="search">
+          <input type="text" placeholder="请输入搜索地点"/>
+        </label>
+        <span class="button icon ion-search searchbutton" ng-click="show_what()" ui-sref="searchplace" ></span>
+    </div>
+    <div class="bar bar-header header search" ng-if="second" >
+       <p class="ohead">推荐行程</p>
+    </div>
+    <div class="bar bar-header header search" ng-if="third" >
+        <p class="ohead">论坛</p>
+    </div>
+    <div class="bar bar-header header search" ng-if="fourth" >
+       <p class="ohead">个人中心</p>
+    </div>
+    <div class="bar bar-header header item-input-inset headerinner" ng-if="place">
+        <a class="button button-clear icon-left ion-android-close" ng-click="show_what()" ui-sref="first" ></a>
+        <label>
+          当前定位城市：北京
+        </label>
+    </div>
+    <div class="bar bar-header header search" ng-if="!hasbar">
+       <p class="ohead">行程安排</p>
+    </div>
+    <div class="bar bar-header header item-input-inset headerinner" ng-if="searchplace">
+      <a class="button button-clear icon-left  ion-android-close"  ng-click="show_what()" ui-sref="first" ></a>
+      <label>
+        搜索结果
+      </label>
+  </div>
+    <ion-nav-view></ion-nav-view>
+    <div class="bar bar-footer footer bar-light" ng-if="hasbar">
+      <div class="button-bar foot">
+        <a class="button button-clear icon ion-ios-home" name="first" ng-click="show_what()" ui-sref="first" ng-class="{true: 'button-positive', false: ''}[first]">首页</a>
+        <a class="button button-clear icon ion-android-subway" name="second" ng-class="{true: 'button-positive', false: ''}[second]" ng-click="show_what()" ui-sref="second">行程</a>
+        <a class="button button-clear icon ion-android-chat" name="third" ng-class="{true: 'button-positive', false: ''}[third]"  ng-click="show_what()" ui-sref="third">论坛</a>
+        <a class="button button-clear icon ion-android-person" name="fourth" ng-class="{true: 'button-positive', false: ''}[fourth]" ng-click="show_what()" ui-sref="fourth">我的</a>
+      </div>
+    </div>
+  </div>
+  <div class="shadow" ng-if="shadow">
+    <div>
+      <label ng-if="name">昵称：<input type="text"></label>
+      <label ng-if="head">选择头像：<input type="file" accept="image/*"></label>
+      <label ng-if="sex">
+        性别：
+        <select name="" >
+          <option value="man">男</option>
+          <option value="woman">女</option>
+        </select>
+      </label>
+      <label ng-if="age">
+        年龄：
+        <input type="number" step="1"  min="1" max="100">
+      </label>
+      <label ng-if="birthday">
+        生日：
+       <input type="text">
+      </label>
+      <p ng-if="hobby">请选择您的标签：<span>健身</span><span>K歌</span><span>酒吧</span><span>休闲</span><span>运动</span><span>冒险</span><span>自然美景</span><span>乡村</span><span>娱乐</span><span>名胜</span><span>风土人情</span><span>吃货</span><span>自由行</span></p>
+      <label ng-if="data">
+        提醒日期：
+        <select name="">
+          <option value="1">星期一</option>
+          <option value="2">星期二</option>
+          <option value="3">星期三</option>
+          <option value="4">星期四</option>
+          <option value="5">星期五</option>
+          <option value="6">星期六</option>
+          <option value="7">星期日</option>
+        </select>
+      </label>
+      <button ng-click="closeshdow()">确定</button>
+    </div>
+      
+  </div>
+  </body>
+</html>
